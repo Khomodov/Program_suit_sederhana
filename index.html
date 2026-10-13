@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Main Suit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section id="halaman1">
+    <h1>Gass adu suit sama bot!</h1>
+    <h3>Pilih dulu mau suit yang mana</h3>
+
+    <div class="pilihan">
+      <button onclick="mulai('gajah')">Suit gajah-orang-semut</button>
+      <button onclick="mulai('jari')">Suit jari</button>
+      <button onclick="mulai('batu')">Suit batu-gunting-kertas</button>
+    </div>
+  </section>
+
+  <section id="halaman2" hidden>
+    <h1>Gass adu suit sama bot!</h1>
+    <h3>pilih suitmu!</h3>
+    <div class="pilihan" id="pilihan"></div>
+    <button onclick="kembali()">Ganti suit dulu</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
