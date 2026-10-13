@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: silver;
+  color: black;
+  padding: 35px 15px;
+}
+
+h1 { font-size: 30px; }
+h3 { margin: 25px 0; color: green;}
+
+.pilihan {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 18px 12px;
+  border-radius: 12px;
+  width: 150px;
+  margin: 10px 5px 5px 5px;
+  cursor: pointer;
+}
